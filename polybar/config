@@ -4,7 +4,7 @@ height = 27
 radius = 0
 fixed-center = false
 
-background = #1d1f21
+background = #aa2F343F
 foreground = #c5c8c6
 
 line-size = 3
@@ -262,7 +262,7 @@ animation-low-framerate = 200
 [module/i3-volume]
 type = custom/script
 tail = true
-label = %output%
+label = VOL %output%
 exec = i3-volume listen "%i %v %p\n"
 scroll-up = i3-volume up
 scroll-down = i3-volume down
