@@ -1,0 +1,234 @@
+[Info  - 11:35:39 AM] Started ElixirLS v0.13.0
+[Info  - 11:35:39 AM] ElixirLS built with elixir "1.12.3" on OTP "22"
+[Info  - 11:35:39 AM] Running on elixir "1.14.0 (compiled with Erlang/OTP 25)" on OTP "25"
+[Info  - 11:35:39 AM] Elixir sources not found (checking in /build/elixir/src/elixir-1.14.0). Code navigation to Elixir modules disabled.
+[Info  - 11:35:40 AM] Loaded DETS databases in 18ms
+[Info  - 11:35:40 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+==> connection
+Compiling 1 file (.ex)
+Generated connection app
+==> floki
+Compiling 1 file (.xrl)
+Compiling 2 files (.erl)
+Compiling 28 files (.ex)
+Generated floki app
+==> decimal
+Compiling 4 files (.ex)
+Generated decimal app
+==> mime
+Compiling 1 file (.ex)
+Generated mime app
+==> nimble_options
+Compiling 3 files (.ex)
+Generated nimble_options app
+===> Analyzing applications...
+===> Compiling telemetry
+==> telemetry_metrics
+Compiling 7 files (.ex)
+Generated telemetry_metrics app
+===> Analyzing applications...
+===> Compiling telemetry_poller
+==> jason
+Compiling 10 files (.ex)
+Generated jason app
+==> db_connection
+Compiling 14 files (.ex)
+Generated db_connection app
+==> expo
+Compiling 2 files (.erl)
+Compiling 21 files (.ex)
+Generated expo app
+==> phoenix_pubsub
+Compiling 11 files (.ex)
+Generated phoenix_pubsub app
+==> plug_crypto
+Compiling 5 files (.ex)
+Generated plug_crypto app
+==> hpax
+Compiling 4 files (.ex)
+Generated hpax app
+==> gettext
+Compiling 17 files (.ex)
+Generated gettext app
+===> Analyzing applications...
+===> Compiling ranch
+==> ecto
+Compiling 56 files (.ex)
+Generated ecto app
+==> plug
+Compiling 1 file (.erl)
+Compiling 40 files (.ex)
+Generated plug app
+==> phoenix_html
+Compiling 9 files (.ex)
+Generated phoenix_html app
+==> phoenix_template
+Compiling 4 files (.ex)
+Generated phoenix_template app
+==> postgrex
+Compiling 64 files (.ex)
+Generated postgrex app
+==> ecto_sql
+Compiling 25 files (.ex)
+Generated ecto_sql app
+==> nimble_pool
+Compiling 2 files (.ex)
+Generated nimble_pool app
+==> castore
+Compiling 1 file (.ex)
+Generated castore app
+==> esbuild
+Compiling 3 files (.ex)
+Generated esbuild app
+==> tailwind
+Compiling 3 files (.ex)
+Generated tailwind app
+==> mint
+Compiling 1 file (.erl)
+Compiling 19 files (.ex)
+Generated mint app
+==> finch
+Compiling 13 files (.ex)
+Generated finch app
+==> websock
+Compiling 1 file (.ex)
+Generated websock app
+===> Analyzing applications...
+===> Compiling cowlib
+===> Analyzing applications...
+===> Compiling cowboy
+===> Analyzing applications...
+===> Compiling cowboy_telemetry
+==> plug_cowboy
+Compiling 5 files (.ex)
+Generated plug_cowboy app
+==> swoosh
+Compiling 42 files (.ex)
+Generated swoosh app
+==> websock_adapter
+Compiling 2 files (.ex)
+Generated websock_adapter app
+==> phoenix
+Compiling 71 files (.ex)
+Generated phoenix app
+==> phoenix_live_view
+Compiling 35 files (.ex)
+Generated phoenix_live_view app
+==> phoenix_live_dashboard
+Compiling 40 files (.ex)
+Generated phoenix_live_dashboard app
+==> phoenix_ecto
+Compiling 7 files (.ex)
+Generated phoenix_ecto app
+==> market_bay
+Compiling 23 files (.ex)
+Generated market_bay app
+[Info  - 11:36:12 AM] Compile took 32224 milliseconds
+[Info  - 11:36:12 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Info  - 11:36:12 AM] [ElixirLS WorkspaceSymbols] Indexing...
+[Info  - 11:36:12 AM] [ElixirLS WorkspaceSymbols] Module discovery complete
+[Info  - 11:36:12 AM] [ElixirLS WorkspaceSymbols] 384 callbacks added to index
+[Info  - 11:36:14 AM] [ElixirLS WorkspaceSymbols] 1045 modules added to index
+[Info  - 11:36:14 AM] [ElixirLS WorkspaceSymbols] 952 types added to index
+[Info  - 11:36:15 AM] Compile took 3049 milliseconds
+[Info  - 11:36:15 AM] [ElixirLS Dialyzer] Checking for stale beam files
+[Info  - 11:36:17 AM] [ElixirLS Dialyzer] Found 879 changed files in 2007 milliseconds
+[Info  - 11:36:24 AM] [ElixirLS WorkspaceSymbols] 13032 functions added to index
+[Info  - 11:36:30 AM] [ElixirLS Dialyzer] Analyzing 879 modules: [Phoenix.LiveDashboard.NavBarComponent, Postgrex.QueryError, :cowboy_app, :cow_sse, Floki.FlatText, Postgrex.Extensions.VoidBinary, Floki.Selector.Parser, Ecto.ParameterizedType, Mint.HTTP1.Response, Mix.Tasks.Phx.Gen.Schema, Mint.UnsafeProxy, Swoosh.Adapters.Local, Floki.Selector.AttributeSelector, Swoosh.Adapters.Sendinblue, Plug.Static.InvalidPathError, MarketBayWeb.Layouts, :cowboy, Finch.HTTP1.Pool, Swoosh.Adapters.XML.Helpers, MarketBayWeb.PageHTML, :cowboy_stream_h, Swoosh.Adapters.ExAwsAmazonSES, Ecto.Migrator, Floki.HTML.Tokenizer, Expo.Messages, Phoenix.Router.MalformedURIError, Phoenix.LiveDashboard.LoggerPubSubBackend, Mix.Tasks.Esbuild, Jason.Encoder.Atom, Postgrex.SCRAM, Expo.MO.Parser, :cow_qs, Phoenix.Config, Jason.Encoder.Decimal, Mix.Tasks.Phx.Gen.Socket, Swoosh.Email.Recipient.BitString, Ecto.MultipleResultsError, Ecto.MultiplePrimaryKeyError, Swoosh.Adapters.Test, MarketBay.Accounts.User, Ecto.Query.DynamicExpr, Plug.Adapters.Test.Conn, Jason.Encoder.Float, Phoenix.HTML.FormField, Inspect.Ecto.Query.DynamicExpr, Inspect.Ecto.Query, Phoenix.LiveView.Lifecycle, Postgrex.Extensions.LineSegment, Mix.EctoSQL, Phoenix.HTML, ...]
+[Info  - 11:36:44 AM] [ElixirLS Dialyzer] Analysis finished in 27295 milliseconds
+[Info  - 11:36:44 AM] Dialyzer analysis is up to date
+[Info  - 11:36:45 AM] [ElixirLS Dialyzer] Writing manifest...
+[Info  - 11:36:45 AM] [ElixirLS Dialyzer] Done writing manifest in 819 milliseconds.
+[Error - 11:39:58 AM] GenServer ElixirLS.LanguageServer.Server terminating
+** (File.Error) could not get current working directory nil: no such file or directory
+    (elixir 1.14.0) lib/file.ex:1550: File.cwd!/0
+    (language_server 0.13.0) lib/language_server/build.ex:7: ElixirLS.LanguageServer.Build.build/3
+    (language_server 0.13.0) lib/language_server/server.ex:948: ElixirLS.LanguageServer.Server.trigger_build/1
+    (language_server 0.13.0) lib/language_server/server.ex:186: ElixirLS.LanguageServer.Server.handle_cast/2
+    (stdlib 4.3) gen_server.erl:1123: :gen_server.try_dispatch/4
+    (stdlib 4.3) gen_server.erl:1200: :gen_server.handle_msg/6
+    (stdlib 4.3) proc_lib.erl:240: :proc_lib.init_p_do_apply/3
+Last message: {:"$gen_cast", {:receive_packet, %{"jsonrpc" => "2.0", "method" => "workspace/didChangeWatchedFiles", "params" => %{"changes" => [%{"type" => 3, "uri" => "file:///home/arturl/dev/languages/elixir_example/market_bay/mix.exs"}, %{"type" => 3, "uri" => "file:///home/arturl/dev/languages/elixir_example/market_bay/.formatter.exs"}]}}}}
+State: %{__struct__: ElixirLS.LanguageServer.Server, analysis_ready?: true, awaiting_contracts: [], build_diagnostics: [], build_ref: #Reference<0.873741006.2189426696.53855>, build_running?: false, client_capabilities: %{"general" => %{"markdown" => %{"parser" => "marked", "version" => "1.1.0"}, "positionEncodings" => ["utf-16"], "regularExpressions" => %{"engine" => "ECMAScript", "version" => "ES2020"}, "staleRequestSupport" => %{"cancel" => true, "retryOnContentModified" => ["textDocument/semanticTokens/full", "textDocument/semanticTokens/range", "textDocument/semanticTokens/full/delta"]}}, "notebookDocument" => %{"synchronization" => %{"dynamicRegistration" => true, "executionSummarySupport" => true}}, "textDocument" => %{"callHierarchy" => %{"dynamicRegistration" => true}, "codeAction" => %{"codeActionLiteralSupport" => %{"codeActionKind" => %{"valueSet" => ["", "quickfix", "refactor", "refactor.extract", "refactor.inline", "refactor.rewrite", "source", "source.organizeImports"]}}, "dataSupport" => true, "disabledSupport" => true, "dynamicRegistration" => true, "honorsChangeAnnotations" => false, "isPreferredSupport" => true, "resolveSupport" => %{"properties" => ["edit"]}}, "codeLens" => %{"dynamicRegistration" => true}, "colorProvider" => %{"dynamicRegistration" => true}, "completion" => %{"completionItem" => %{"commitCharactersSupport" => true, "deprecatedSupport" => true, "documentationFormat" => ["markdown", "plaintext"], "insertReplaceSupport" => true, "insertTextModeSupport" => %{"valueSet" => [1, 2]}, "labelDetailsSupport" => true, "preselectSupport" => true, "resolveSupport" => %{"properties" => ["documentation", "detail", "additionalTextEdits"]}, "snippetSupport" => true, "tagSupport" => %{"valueSet" => [1]}}, "completionItemKind" => %{"valueSet" => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]}, "completionList" => %{"itemDefaults" => ["commitCharacters", "editRange", "insertTextFormat", "insertTextMode"]}, "contextSupport" => true, "dynamicRegistration" => true, "insertTextMode" => 2}, "declaration" => %{"dynamicRegistration" => true, "linkSupport" => true}, "definition" => %{"dynamicRegistration" => true, "linkSupport" => true}, "diagnostic" => %{"dynamicRegistration" => true, "relatedDocumentSupport" => false}, "documentHighlight" => %{"dynamicRegistration" => true}, "documentLink" => %{"dynamicRegistration" => true, "tooltipSupport" => true}, "documentSymbol" => %{"dynamicRegistration" => true, "hierarchicalDocumentSymbolSupport" => true, "labelSupport" => true, "symbolKind" => %{"valueSet" => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, ...]}, "tagSupport" => %{"valueSet" => [1]}}, "foldingRange" => %{"dynamicRegistration" => true, "foldingRange" => %{"collapsedText" => false}, "foldingRangeKind" => %{"valueSet" => ["comment", "imports", "region"]}, "lineFoldingOnly" => true, "rangeLimit" => 5000}, "formatting" => %{"dynamicRegistration" => true}, "hover" => %{"contentFormat" => ["markdown", "plaintext"], "dynamicRegistration" => true}, "implementation" => %{"dynamicRegistration" => true, "linkSupport" => true}, "inlayHint" => %{"dynamicRegistration" => true, "resolveSupport" => %{"properties" => ["tooltip", "textEdits", "label.tooltip", "label.location", "label.command"]}}, "inlineValue" => %{"dynamicRegistration" => true}, "linkedEditingRange" => %{"dynamicRegistration" => true}, "onTypeFormatting" => %{"dynamicRegistration" => true}, "publishDiagnostics" => %{"codeDescriptionSupport" => true, "dataSupport" => true, "relatedInformation" => true, "tagSupport" => %{"valueSet" => [1, 2]}, "versionSupport" => false}, "rangeFormatting" => %{"dynamicRegistration" => true}, "references" => %{"dynamicRegistration" => true}, "rename" => %{"dynamicRegistration" => true, "honorsChangeAnnotations" => true, "prepareSupport" => true, "prepareSupportDefaultBehavior" => 1}, "selectionRange" => %{"dynamicRegistration" => true}, "semanticTokens" => %{"augmentsSyntaxTokens" => true, "dynamicRegistration" => true, "formats" => ["relative"], "multilineTokenSupport" => false, "overlappingTokenSupport" => false, "requests" => %{"full" => %{"delta" => true}, "range" => true}, "serverCancelSupport" => true, "tokenModifiers" => ["declaration", "definition", "readonly", "static", "deprecated", "abstract", "async", ...], "tokenTypes" => ["namespace", "type", "class", "enum", "interface", "struct", ...]}, "signatureHelp" => %{"contextSupport" => true, "dynamicRegistration" => true, "signatureInformation" => %{"activeParameterSupport" => true, "documentationFormat" => ["markdown", "plaintext"], "parameterInformation" => %{"labelOffsetSupport" => true}}}, "synchronization" => %{"didSave" => true, "dynamicRegistration" => true, "willSave" => true, "willSaveWaitUntil" => true}, "typeDefinition" => %{"dynamicRegistration" => true, "linkSupport" => true}, "typeHierarchy" => %{"dynamicRegistration" => true}}, "window" => %{"showDocument" => %{"support" => true}, "showMessage" => %{"messageActionItem" => %{"additionalPropertiesSupport" => true}}, "workDoneProgress" => true}, "workspace" => %{"applyEdit" => true, "codeLens" => %{"refreshSupport" => true}, "configuration" => true, "diagnostics" => %{"refreshSupport" => true}, "didChangeConfiguration" => %{"dynamicRegistration" => true}, "didChangeWatchedFiles" => %{"dynamicRegistration" => true, "relativePatternSupport" => true}, "executeCommand" => %{"dynamicRegistration" => true}, "fileOperations" => %{"didCreate" => true, "didDelete" => true, "didRename" => true, "dynamicRegistration" => true, "willCreate" => true, "willDelete" => true, "willRename" => true}, "inlayHint" => %{"refreshSupport" => true}, "inlineValue" => %{"refreshSupport" => true}, "semanticTokens" => %{"refreshSupport" => true}, "symbol" => %{"dynamicRegistration" => true, "resolveSupport" => %{"properties" => ["location.range"]}, "symbolKind" => %{"valueSet" => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, ...]}, "tagSupport" => %{"valueSet" => [1]}}, "workspaceEdit" => %{"changeAnnotationSupport" => %{"groupsOnLabel" => true}, "documentChanges" => true, "failureHandling" => "textOnlyTransactional", "normalizesLineEndings" => true, "resourceOperations" => ["create", "rename", "delete"]}}}, dialyzer_diagnostics: [], dialyzer_sup: #PID<0.132.0>, mix_project?: true, needs_build?: false, no_mixfile_warned?: false, project_dir: "/home/arturl/dev/languages/elixir_example/market_bay", received_shutdown?: false, requests: %{}, root_uri: "file:///home/arturl/dev/languages/elixir_example/market_bay", server_instance_id: "RQwuCKrHld838OkV2gAi_g7BH8TqBMXx", settings: %{"additionalWatchedExtensions" => [], "dialyzerEnabled" => true, "dialyzerFormat" => "dialyxir_long", "dialyzerWarnOpts" => [], "enableTestLenses" => false, "envVariables" => %{}, "fetchDeps" => false, "languageServerOverridePath" => "", "mixEnv" => "test", "mixTarget" => "", "projectDir" => "", "signatureAfterComplete" => true, "suggestS (truncated)
+[Error - 11:39:58 AM] GenServer ElixirLS.LanguageServer.PacketRouter terminating
+** (FunctionClauseError) no function clause matching in ElixirLS.LanguageServer.PacketRouter.handle_info/2
+    (language_server 0.13.0) lib/language_server/packet_router.ex:89: ElixirLS.LanguageServer.PacketRouter.handle_info({:DOWN, #Reference<0.873741006.2189426691.7562>, :process, #PID<0.117.0>, {%File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: 'lib/file.ex', line: 1550]}, {ElixirLS.LanguageServer.Build, :build, 3, [file: 'lib/language_server/build.ex', line: 7]}, {ElixirLS.LanguageServer.Server, :trigger_build, 1, [file: 'lib/language_server/server.ex', line: 948]}, {ElixirLS.LanguageServer.Server, :handle_cast, 2, [file: 'lib/language_server/server.ex', line: 186]}, {:gen_server, :try_dispatch, 4, [file: 'gen_server.erl', line: 1123]}, {:gen_server, :handle_msg, 6, [file: 'gen_server.erl', line: 1200]}, {:proc_lib, :init_p_do_apply, 3, [file: 'proc_lib.erl', line: 240]}]}}, %{__struct__: ElixirLS.LanguageServer.PacketRouter.State, monitor_references: %{#Reference<0.873741006.2189426691.7562> => #PID<0.117.0>}})
+    (stdlib 4.3) gen_server.erl:1123: :gen_server.try_dispatch/4
+    (stdlib 4.3) gen_server.erl:1200: :gen_server.handle_msg/6
+    (stdlib 4.3) proc_lib.erl:240: :proc_lib.init_p_do_apply/3
+Last message: {:DOWN, #Reference<0.873741006.2189426691.7562>, :process, #PID<0.117.0>, {%File.Error{reason: :enoent, path: nil, action: "get current working directory"}, [{File, :cwd!, 0, [file: 'lib/file.ex', line: 1550]}, {ElixirLS.LanguageServer.Build, :build, 3, [file: 'lib/language_server/build.ex', line: 7]}, {ElixirLS.LanguageServer.Server, :trigger_build, 1, [file: 'lib/language_server/server.ex', line: 948]}, {ElixirLS.LanguageServer.Server, :handle_cast, 2, [file: 'lib/language_server/server.ex', line: 186]}, {:gen_server, :try_dispatch, 4, [file: 'gen_server.erl', line: 1123]}, {:gen_server, :handle_msg, 6, [file: 'gen_server.erl', line: 1200]}, {:proc_lib, :init_p_do_apply, 3, [file: 'proc_lib.erl', line: 240]}]}}
+State: %{__struct__: ElixirLS.LanguageServer.PacketRouter.State, monitor_references: %{#Reference<0.873741006.2189426691.7562> => #PID<0.117.0>}}
+[Info  - 11:40:01 AM] Connection to server got closed. Server will restart.
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+init terminating in do_boot ({error,invalid_current_directory})
+
+Crash dump is being written to: erl_crash.dump...[Info  - 11:40:01 AM] Connection to server got closed. Server will restart.
+[Error - 11:40:01 AM] Server initialization failed.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 11:40:01 AM] ElixirLS - market_bay client: couldn't create connection to server.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+init terminating in do_boot ({error,invalid_current_directory})
+
+Crash dump is being written to: erl_crash.dump...[Info  - 11:40:01 AM] Connection to server got closed. Server will restart.
+[Error - 11:40:01 AM] Server initialization failed.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 11:40:01 AM] ElixirLS - market_bay client: couldn't create connection to server.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 11:40:01 AM] Restarting server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+init terminating in do_boot ({error,invalid_current_directory})
+
+Crash dump is being written to: erl_crash.dump...[Info  - 11:40:01 AM] Connection to server got closed. Server will restart.
+[Error - 11:40:01 AM] Server initialization failed.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 11:40:01 AM] ElixirLS - market_bay client: couldn't create connection to server.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 11:40:01 AM] Restarting server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+init terminating in do_boot ({error,invalid_current_directory})
+
+Crash dump is being written to: erl_crash.dump...[Error - 11:40:01 AM] The ElixirLS - market_bay server crashed 5 times in the last 3 minutes. The server will not be restarted. See the output for more information.
+[Error - 11:40:01 AM] Server initialization failed.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 11:40:01 AM] ElixirLS - market_bay client: couldn't create connection to server.
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 
+[Error - 11:40:01 AM] Restarting server failed
+  Message: Pending response rejected since connection got disposed
+  Code: -32097 

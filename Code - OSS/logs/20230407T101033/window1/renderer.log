@@ -1,0 +1,212 @@
+2023-04-07 10:10:34.297 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-04-07 10:10:34.298 [error] Extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-04-07 10:10:34.298 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-04-07 10:10:34.298 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-04-07 10:10:34.332 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-04-07 10:10:34.333 [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+2023-04-07 10:10:37.564 [info] [perf] Render performance baseline is 142ms
+2023-04-07 10:10:38.344 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-04-07 10:10:38.345 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-04-07 10:10:38.362 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-04-07 10:10:38.362 [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+2023-04-07 10:10:43.016 [error] [Extension Host] extension activation failed Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at Mc.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:45108)
+	at new PC (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:433687)
+	at f (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:544291)
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546181
+	at t.resolveInstance (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546208)
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549240
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549577
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548900
+	at y (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548932)
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548794
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548728
+	at Array.map (<anonymous>)
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548700
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545539
+	at Array.reduce (<anonymous>)
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545511
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545838
+	at t.resolveInstance (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546208)
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549240
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549577
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548900
+	at y (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548932)
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548794
+	at t.resolve (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:550764)
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519737
+	at e._get (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519106)
+	at e._getButThrowIfAsync (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519166)
+	at e.get (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:514861)
+	at Ly.get (/home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:69994)
+	at /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:552800
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-04-07 10:17:23.237 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 10:54:08.274 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 10:54:09.297 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 10:54:15.210 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 10:54:17.235 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 10:54:24.962 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 10:54:31.568 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 10:54:32.998 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 10:54:57.281 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 10:54:58.536 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 10:55:35.391 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 11:04:49.729 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 11:04:52.056 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 11:24:31.211 [error] ValueError: `column` parameter (1) is not in a valid range (0-0) for line 129 ('\n').: Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 129 ('\n').
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 11:31:51.819 [error] Could not find category with ID: Setup: Error: Could not find category with ID: Setup
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2548:53844
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at o.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2121)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1729)
+    at B.progressStep (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:27216)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:27411
+    at Set.forEach (<anonymous>)
+    at B.progressByEvent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:27395)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:22015
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at o.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2121)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1729)
+    at w.k (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1570:13520)
+    at w.executeCommand (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1570:13037)
+    at Hs.J (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:619:6711)
+    at Hs.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:619:4841)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2297:90263
+2023-04-07 11:31:51.820 [error] Could not find category with ID: SetupWeb: Error: Could not find category with ID: SetupWeb
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2548:53844
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at o.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2121)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1729)
+    at B.progressStep (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:27216)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:27411
+    at Set.forEach (<anonymous>)
+    at B.progressByEvent (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:27395)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1896:22015
+    at g.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:145)
+    at o.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:2121)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:86:1729)
+    at w.k (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1570:13520)
+    at w.executeCommand (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1570:13037)
+    at Hs.J (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:619:6711)
+    at Hs.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:619:4841)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2297:90263
+2023-04-07 14:10:23.062 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 14:11:20.699 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 14:11:21.864 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 14:25:05.269 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 14:36:52.879 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 14:54:10.001 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 14:54:12.429 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 14:55:17.578 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 14:55:19.158 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 14:57:03.979 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 15:49:09.458 [error] UnboundLocalError: local variable 'start_index' referenced before assignment: Error: UnboundLocalError: local variable 'start_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-04-07 15:49:59.118 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2029883
+	at /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030177
+	at Immediate.<anonymous> (/home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal/out/client/extension.js:2:2030539)
+	at process.processImmediate (node:internal/timers:466:21)

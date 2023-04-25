@@ -1,0 +1,6 @@
+2023/04/13-14:09:03.072 560 Reusing MANIFEST /home/arturl/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/04/13-14:09:03.073 560 Recovering log #44
+2023/04/13-14:09:03.073 560 Reusing old log /home/arturl/.config/discord/Local Storage/leveldb/000044.log 
+2023/04/13-14:12:00.546 8f3 Level-0 table #49: started
+2023/04/13-14:12:00.560 8f3 Level-0 table #49: 1533887 bytes OK
+2023/04/13-14:12:00.562 8f3 Delete type=0 #44

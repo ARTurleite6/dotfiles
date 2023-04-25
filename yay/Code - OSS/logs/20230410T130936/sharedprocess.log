@@ -1,0 +1,9 @@
+2023-04-10 13:09:37.934 [info] Starting worker process with pid 21900 (type: fileWatcher, window: 1).
+2023-04-10 13:09:45.702 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-04-10 13:09:46.607 [info] Installing extension: rust-lang.rust-analyzer
+2023-04-10 13:09:48.635 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2023-04-10 13:09:48.989 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.2def88db-d96b-4be9-83e8-1a6fb4f6ca24: rust-lang.rust-analyzer
+2023-04-10 13:09:49.003 [info] Renamed to /home/arturl/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1472-linux-x64
+2023-04-10 13:09:49.005 [info] Extracting extension completed. rust-lang.rust-analyzer
+2023-04-10 13:09:49.011 [info] Extension installed successfully: rust-lang.rust-analyzer
+2023-04-10 13:09:49.013 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1463-linux-x64

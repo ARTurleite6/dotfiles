@@ -1,0 +1,3 @@
+[ERROR rust_analyzer::config] failed to find any projects in [AbsPathBuf("/home/arturl/dev/languages/ts_example")]
+[ERROR rust_analyzer::main_loop] FetchWorkspaceError:
+rust-analyzer failed to discover workspace

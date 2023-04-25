@@ -1,0 +1,15 @@
+2023/04/11-19:06:14.843 10643 Reusing MANIFEST /home/arturl/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/04/11-19:06:14.843 10643 Recovering log #41
+2023/04/11-19:06:14.843 10643 Reusing old log /home/arturl/.config/discord/Local Storage/leveldb/000041.log 
+2023/04/11-19:27:44.748 10640 Level-0 table #45: started
+2023/04/11-19:27:44.757 10640 Level-0 table #45: 1530526 bytes OK
+2023/04/11-19:27:44.759 10640 Delete type=0 #41
+2023/04/11-19:27:44.759 10640 Compacting 4@0 + 1@1 files
+2023/04/11-19:27:44.766 10640 Generated table #46@0: 31 keys, 1534917 bytes
+2023/04/11-19:27:44.766 10640 Compacted 4@0 + 1@1 files => 1534917 bytes
+2023/04/11-19:27:44.767 10640 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/04/11-19:27:44.767 10640 Delete type=2 #45
+2023/04/11-19:27:44.767 10640 Delete type=2 #39
+2023/04/11-19:27:44.767 10640 Delete type=2 #36
+2023/04/11-19:27:44.767 10640 Delete type=2 #33
+2023/04/11-19:27:44.767 10640 Delete type=2 #42

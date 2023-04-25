@@ -1,0 +1,118 @@
+2023-04-06 11:13:59.819 [info] Extension host with pid 9550 started
+2023-04-06 11:13:59.819 [info] Skipping acquiring lock for /home/arturl/.config/Code - OSS/User/workspaceStorage/b275d61200bb5d815470afbef23d4ae2.
+2023-04-06 11:13:59.869 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-06 11:13:59.870 [info] ExtensionService#_doActivateExtension rust-lang.rust-analyzer, startup: false, activationEvent: 'onLanguage:rust'
+2023-04-06 11:14:00.005 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-06 11:14:00.005 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-04-06 11:14:00.100 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-06 11:14:00.101 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-06 11:14:00.166 [info] Eager extensions activated
+2023-04-06 11:14:00.180 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-06 11:14:00.180 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-06 11:14:01.078 [error] Error: ENOENT: no such file or directory, open '/home/arturl/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2023-04-06 11:17:26.998 [info] Extension host terminating: received terminate message from renderer
+2023-04-06 11:17:27.010 [error] TypeError: r.some is not a function
+	at d.saveToDisk (/home/arturl/.vscode-oss/extensions/vscodevim.vim-1.25.2-universal/out/extension.js:2:669912)
+	at t.deactivate (/home/arturl/.vscode-oss/extensions/vscodevim.vim-1.25.2-universal/out/extension.js:2:213764)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:10948)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-04-06 11:17:27.011 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+	at c.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+	at G.<computed>.Q.charCodeAt.G.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at L.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+	at m.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+	at Fl (/home/arturl/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1463-linux-x64/out/main.js:39:68824)
+	at Object.rS (/home/arturl/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1463-linux-x64/out/main.js:110:4531)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:10948)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-06 11:17:27.011 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:105190)
+	at c.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11692)
+	at G.<computed>.Q.charCodeAt.G.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:8967)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125211)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at L.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123880)
+	at m.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125797)
+	at m.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124687)
+	at m.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124587)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:23801)
+	at Fl (/home/arturl/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1463-linux-x64/out/main.js:39:68824)
+	at Object.rS (/home/arturl/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1463-linux-x64/out/main.js:110:4531)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:10948)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-04-06 11:17:27.011 [info] Extension host with pid 9550 exiting with code 0

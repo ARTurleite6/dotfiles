@@ -1,0 +1,118 @@
+2023-04-06 11:04:21.444 [info] Started initializing default profile extensions in extensions installation folder. file:///home/arturl/.vscode-oss/extensions
+2023-04-06 11:04:21.571 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/arturl/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/arturl/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-04-06 11:04:21.571 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/arturl/.vscode-oss/extensions
+2023-04-06 11:04:21.679 [info] Starting worker process with pid 5029 (type: fileWatcher, window: 1).
+2023-04-06 11:04:55.324 [info] Getting Manifest... rust-lang.rust
+2023-04-06 11:04:55.461 [info] Installing extension: rust-lang.rust
+2023-04-06 11:04:55.922 [info] Extension signature verification is not done: rust-lang.rust
+2023-04-06 11:04:55.998 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.c6a6bcae-173a-4e44-82cd-2b97d421eb49: rust-lang.rust
+2023-04-06 11:04:55.999 [info] Renamed to /home/arturl/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal
+2023-04-06 11:04:56.000 [info] Extracting extension completed. rust-lang.rust
+2023-04-06 11:04:56.008 [info] Extension installed successfully: rust-lang.rust
+2023-04-06 11:04:57.308 [info] Uninstalling extension from the profile: rust-lang.rust@0.7.8 vscode-userdata:/home/arturl/.vscode-oss/extensions/extensions.json
+2023-04-06 11:04:57.331 [info] Marked extension as uninstalled rust-lang.rust-0.7.8-universal
+2023-04-06 11:04:57.477 [info] Successfully uninstalled extension from the profile rust-lang.rust@0.7.8 vscode-userdata:/home/arturl/.vscode-oss/extensions/extensions.json
+2023-04-06 11:04:59.184 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-04-06 11:04:59.312 [info] Installing extension: rust-lang.rust-analyzer
+2023-04-06 11:05:00.915 [info] Worker process with pid 5029 terminated normally (type: fileWatcher, window: 1).
+2023-04-06 11:05:00.930 [info] Starting worker process with pid 5137 (type: fileWatcher, window: 1).
+2023-04-06 11:05:01.795 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2023-04-06 11:05:01.830 [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2023-04-06 11:05:01.832 [info] Worker process with pid 5137 terminated normally (type: fileWatcher, window: 1).
+2023-04-06 11:05:01.832 [info] Starting worker process with pid 5150 (type: fileWatcher, window: 1).
+2023-04-06 11:05:02.436 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.e735eef6-e753-40f8-8079-5a2c3da9b86d: rust-lang.rust-analyzer
+2023-04-06 11:05:02.440 [info] Renamed to /home/arturl/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1463-linux-x64
+2023-04-06 11:05:02.441 [info] Extracting extension completed. rust-lang.rust-analyzer
+2023-04-06 11:05:02.447 [info] Extension installed successfully: rust-lang.rust-analyzer
+2023-04-06 11:05:29.698 [info] Getting Manifest... elixir-lsp.elixir-ls
+2023-04-06 11:05:30.079 [info] Installing extension: elixir-lsp.elixir-ls
+2023-04-06 11:05:31.051 [info] Extension signature verification is not done: elixir-lsp.elixir-ls
+2023-04-06 11:05:31.317 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.d39a9be2-96f9-4b45-bc73-08a37904af3e: elixir-lsp.elixir-ls
+2023-04-06 11:05:31.331 [info] Renamed to /home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal
+2023-04-06 11:05:31.332 [info] Extracting extension completed. elixir-lsp.elixir-ls
+2023-04-06 11:05:31.338 [info] Extension installed successfully: elixir-lsp.elixir-ls
+2023-04-06 11:05:40.553 [info] Getting Manifest... victorbjorklund.phoenix
+2023-04-06 11:05:40.919 [info] Installing extension: victorbjorklund.phoenix
+2023-04-06 11:05:41.217 [info] Extension signature verification is not done: victorbjorklund.phoenix
+2023-04-06 11:05:41.223 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.2d247222-206d-404a-a260-b66a0d713630: victorbjorklund.phoenix
+2023-04-06 11:05:41.225 [info] Renamed to /home/arturl/.vscode-oss/extensions/victorbjorklund.phoenix-0.1.0-universal
+2023-04-06 11:05:41.226 [info] Extracting extension completed. victorbjorklund.phoenix
+2023-04-06 11:05:41.230 [info] Extension installed successfully: victorbjorklund.phoenix
+2023-04-06 11:06:18.328 [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+2023-04-06 11:06:18.803 [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
+2023-04-06 11:06:19.590 [info] Extension signature verification is not done: llvm-vs-code-extensions.vscode-clangd
+2023-04-06 11:06:19.607 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.d66db38c-407f-4406-9976-703c61b75577: llvm-vs-code-extensions.vscode-clangd
+2023-04-06 11:06:19.609 [info] Renamed to /home/arturl/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.23-universal
+2023-04-06 11:06:19.610 [info] Extracting extension completed. llvm-vs-code-extensions.vscode-clangd
+2023-04-06 11:06:19.615 [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd
+2023-04-06 11:06:25.879 [info] Getting Manifest... twxs.cmake
+2023-04-06 11:06:26.010 [info] Installing extension: twxs.cmake
+2023-04-06 11:06:27.683 [info] Extension signature verification is not done: twxs.cmake
+2023-04-06 11:06:27.765 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.52abaea9-7535-46d4-aeba-227fb77bf98d: twxs.cmake
+2023-04-06 11:06:27.767 [info] Renamed to /home/arturl/.vscode-oss/extensions/twxs.cmake-0.0.17-universal
+2023-04-06 11:06:27.768 [info] Extracting extension completed. twxs.cmake
+2023-04-06 11:06:27.772 [info] Extension installed successfully: twxs.cmake
+2023-04-06 11:06:37.635 [info] Getting Manifest... ms-vscode.cmake-tools
+2023-04-06 11:06:37.999 [info] Installing extension: ms-vscode.cmake-tools
+2023-04-06 11:06:38.187 [info] Getting Manifest... twxs.cmake
+2023-04-06 11:06:38.795 [info] Extension signature verification is not done: ms-vscode.cmake-tools
+2023-04-06 11:06:38.885 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.64796181-960d-45ee-a05f-d0b009617b3c: ms-vscode.cmake-tools
+2023-04-06 11:06:38.887 [info] Renamed to /home/arturl/.vscode-oss/extensions/ms-vscode.cmake-tools-1.13.45-universal
+2023-04-06 11:06:38.891 [info] Extracting extension completed. ms-vscode.cmake-tools
+2023-04-06 11:06:38.896 [info] Extension installed successfully: ms-vscode.cmake-tools
+2023-04-06 11:06:56.365 [info] Getting Manifest... muhammad-sammy.csharp
+2023-04-06 11:06:56.831 [info] Installing extension: muhammad-sammy.csharp
+2023-04-06 11:06:57.602 [info] Extension signature verification is not done: muhammad-sammy.csharp
+2023-04-06 11:06:57.620 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.6faf2b91-6151-43fc-87e1-8bcfe2856a57: muhammad-sammy.csharp
+2023-04-06 11:06:57.624 [info] Renamed to /home/arturl/.vscode-oss/extensions/muhammad-sammy.csharp-1.25.0-universal
+2023-04-06 11:06:57.626 [info] Extracting extension completed. muhammad-sammy.csharp
+2023-04-06 11:06:57.632 [info] Extension installed successfully: muhammad-sammy.csharp
+2023-04-06 11:07:12.039 [info] Getting Manifest... ms-python.python
+2023-04-06 11:07:12.181 [info] Installing extension: ms-python.python
+2023-04-06 11:07:12.423 [info] Getting Manifest... ms-toolsai.jupyter
+2023-04-06 11:07:12.807 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-04-06 11:07:13.001 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-04-06 11:07:13.178 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-04-06 11:07:13.354 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-04-06 11:07:13.570 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2023-04-06 11:07:13.570 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2023-04-06 11:07:13.570 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2023-04-06 11:07:13.570 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2023-04-06 11:07:13.570 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2023-04-06 11:07:13.934 [info] Extension signature verification is not done: ms-toolsai.jupyter-keymap
+2023-04-06 11:07:13.940 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.c5f395de-39dd-490c-bde0-7f05572b240b: ms-toolsai.jupyter-keymap
+2023-04-06 11:07:13.941 [info] Renamed to /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal
+2023-04-06 11:07:13.942 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-04-06 11:07:14.267 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-cell-tags
+2023-04-06 11:07:14.267 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-slideshow
+2023-04-06 11:07:14.289 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.a27eaad3-6e29-435c-a582-bbfdd35a16fc: ms-toolsai.vscode-jupyter-slideshow
+2023-04-06 11:07:14.291 [info] Renamed to /home/arturl/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5-universal
+2023-04-06 11:07:14.292 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-04-06 11:07:14.294 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.1cc72dcc-8ab0-43c2-af7f-2501748eda32: ms-toolsai.vscode-jupyter-cell-tags
+2023-04-06 11:07:14.297 [info] Renamed to /home/arturl/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8-universal
+2023-04-06 11:07:14.298 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-04-06 11:07:16.251 [info] Extension signature verification is not done: ms-toolsai.jupyter-renderers
+2023-04-06 11:07:16.264 [info] Extension signature verification is not done: ms-toolsai.jupyter
+2023-04-06 11:07:16.485 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.0857f215-a3d7-4c01-8e18-4dc83bd4a099: ms-toolsai.jupyter-renderers
+2023-04-06 11:07:16.499 [info] Renamed to /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.15-universal
+2023-04-06 11:07:16.504 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-04-06 11:07:16.567 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.f48b8ba8-b922-4b4f-a692-59f516a52880: ms-toolsai.jupyter
+2023-04-06 11:07:16.570 [info] Renamed to /home/arturl/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal
+2023-04-06 11:07:16.574 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-04-06 11:07:19.332 [info] Extension signature verification is not done: ms-python.python
+2023-04-06 11:07:20.623 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.2af20ce4-853c-4fab-8376-d518f2062d37: ms-python.python
+2023-04-06 11:07:20.639 [info] Renamed to /home/arturl/.vscode-oss/extensions/ms-python.python-2023.6.0-universal
+2023-04-06 11:07:20.642 [info] Extracting extension completed. ms-python.python
+2023-04-06 11:07:20.649 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-04-06 11:07:20.649 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-04-06 11:07:20.649 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-04-06 11:07:20.650 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-04-06 11:07:20.650 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-04-06 11:07:20.650 [info] Extension installed successfully: ms-python.python
+2023-04-06 11:08:17.117 [info] Getting Manifest... vscodevim.vim
+2023-04-06 11:08:17.573 [info] Installing extension: vscodevim.vim
+2023-04-06 11:08:18.664 [info] Extension signature verification is not done: vscodevim.vim
+2023-04-06 11:08:18.702 [info] Extracted extension to /home/arturl/.vscode-oss/extensions/.4417c1ed-6c07-420a-9275-b74cf739a284: vscodevim.vim
+2023-04-06 11:08:18.704 [info] Renamed to /home/arturl/.vscode-oss/extensions/vscodevim.vim-1.25.2-universal
+2023-04-06 11:08:18.705 [info] Extracting extension completed. vscodevim.vim
+2023-04-06 11:08:18.710 [info] Extension installed successfully: vscodevim.vim

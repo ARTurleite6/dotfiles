@@ -1,0 +1,7 @@
+4
+/usr/share/backgrounds/arcolinux/shiny-1680x1050.png
+/usr/share/backgrounds/archlinux-login-backgrounds/att-03.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/att-05.jpg
+/usr/share/backgrounds/arcolinux/abstract-2018x1156.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg
+/usr/share/backgrounds/arcolinux/arco-wallpaper.jpg

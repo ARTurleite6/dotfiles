@@ -1,0 +1,76 @@
+2023-04-06 11:30:41.068 [info] Extension host with pid 15269 started
+2023-04-06 11:30:41.068 [info] Skipping acquiring lock for /home/arturl/.config/Code - OSS/User/workspaceStorage/3249933d51e617cb75c3c5810cc623fb.
+2023-04-06 11:30:41.189 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-06 11:30:41.190 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-04-06 11:30:41.190 [info] ExtensionService#_doActivateExtension elixir-lsp.elixir-ls, startup: true, activationEvent: 'workspaceContains:mix.exs'
+2023-04-06 11:30:41.578 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-06 11:30:41.578 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-06 11:30:41.612 [info] Eager extensions activated
+2023-04-06 11:30:41.623 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-06 11:30:41.624 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-06 11:30:52.223 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-06 11:33:52.799 [error] Error: Pending response rejected since connection got disposed
+	at Object.dispose (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-jsonrpc/lib/common/connection.js:1127:27)
+	at Object.dispose (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:1468:35)
+	at LanguageClient.handleConnectionClosed (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:1063:34)
+	at LanguageClient.handleConnectionClosed (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/node/main.js:180:15)
+	at closeHandler (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:1050:18)
+	at CallbackList.invoke (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at closeHandler (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-jsonrpc/lib/common/connection.js:291:26)
+	at CallbackList.invoke (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+	at Emitter.fire (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+	at StreamMessageWriter.fireClose (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:42:27)
+	at Socket.<anonymous> (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-jsonrpc/lib/common/messageWriter.js:74:42)
+	at Socket.emit (node:events:526:28)
+	at Pipe.<anonymous> (node:net:687:12)
+2023-04-06 11:33:52.800 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at LanguageClient.shutdown (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:897:19)
+	at LanguageClient.stop (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:868:21)
+	at LanguageClient.stop (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/node/main.js:150:22)
+	at LanguageClient.doInitialize (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:850:27)
+	at async LanguageClient.start (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:705:13)
+2023-04-06 11:33:52.848 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at LanguageClient.shutdown (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:897:19)
+	at LanguageClient.stop (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:868:21)
+	at LanguageClient.stop (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/node/main.js:150:22)
+	at LanguageClient.doInitialize (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:850:27)
+	at async LanguageClient.start (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:705:13)
+2023-04-06 11:33:52.900 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at LanguageClient.shutdown (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:897:19)
+	at LanguageClient.stop (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:868:21)
+	at LanguageClient.stop (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/node/main.js:150:22)
+	at LanguageClient.doInitialize (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:850:27)
+	at async LanguageClient.start (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:705:13)
+2023-04-06 11:34:12.429 [info] Extension host terminating: received terminate message from renderer
+2023-04-06 11:34:12.436 [error] Error: Client is not running and can't be stopped. It's current state is: startFailed
+	at LanguageClient.shutdown (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:897:19)
+	at LanguageClient.stop (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/common/client.js:868:21)
+	at LanguageClient.stop (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/node_modules/vscode-languageclient/lib/node/main.js:150:22)
+	at Object.deactivate (/home/arturl/.vscode-oss/extensions/elixir-lsp.elixir-ls-0.13.0-universal/out/extension.js:465:30)
+	at E.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:10948)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9131
+	at Array.map (<anonymous>)
+	at E.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9118)
+	at E.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:9389)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:1544)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:18690)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:124:16600
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at Socket.s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-04-06 11:34:12.437 [info] Extension host with pid 15269 exiting with code 0
