@@ -281,3 +281,5 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 5%+
 # touchpad on and off controller on laptop with Fn+<touchpad control functional key>
 bindsym XF86TouchpadOn exec --no-startup-id synclient Touchpadoff=0
 bindsym XF86TouchpadOff exec --no-startup-id synclient Touchpadoff=1
+
+exec --no-startup-id i3-battery-popup
