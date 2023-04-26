@@ -24,9 +24,9 @@ font-0 = "Source Code Pro Semibold:size=10;1"
 font-1 = "Font Awesome 5 Free:style=Solid:size=10;1"
 font-2 = "Font Awesome 5 Brands:size=10;1"
 
-modules-left = spotify previous playpause next
-modules-center = i3
-modules-right = i3-volume wlan eth battery date powermenu
+modules-left = i3 spotify previous playpause next
+modules-center = date
+modules-right = i3-volume wlan eth battery cpu memory temperature powermenu
 
 tray-position =
 ;tray-padding =
@@ -76,7 +76,7 @@ format-connected-background = #282a2e
 format-connected-padding = 2
 label-connected = %essid%
 
-format-disconnected =
+format-disconnected = 
 
 ramp-signal-0 = 
 ramp-signal-1 = 
@@ -308,6 +308,50 @@ type = custom/ipc
 hook-0 = echo ""
 ; Playing/paused show song name and artist
 hook-1 = spotifyctl -q status --format ' %artist%: %title%'
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = "MEM "
+format-prefix-foreground = ${colors.secondary}
+; format-prefix-foreground = ${colors.foreground-alt}
+; format-underline = #4bffdc
+; label = %percentage_used%%
+label = %gb_used%
+label-foreground = ${colors.secondary}
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = "CPU" 
+format-prefix-foreground = ${colors.foreground-alt}
+; format-underline = #f90000
+label = %percentage:2%%
+label-foreground = ${colors.secondary}
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+hwmon-path = /sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon4/temp1_input
+
+; format = <ramp> <label>
+format-prefix = "TEMP "
+format =  <label>
+format-foreground = ${colors.secondary}
+#format-underline = #f50a4d
+format-warn = <ramp> <label-warn>
+#format-warn-underline = ${self.format-underline}
+
+label = %temperature-c%
+label-warn = %temperature-c%
+label-warn-foreground = ${colors.secondary}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-foreground = ${colors.foreground-alt}
 
 [settings]
 screenchange-reload = true
