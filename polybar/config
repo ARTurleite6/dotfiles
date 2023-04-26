@@ -8,7 +8,7 @@ enable-ipc = true
 background = #aa2F343F
 foreground = #c5c8c6
 
-line-size = 3
+line-size = 0
 line-color =
 
 border-size = 0
