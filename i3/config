@@ -295,7 +295,5 @@ exec --no-startup-id i3-battery-popup
 
 exec --no-startup-id picom
 
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3locki -k --nofork -i ~/Pictures/1242x2688 Game The Last Of Us 2 Iphone XS MAX Wallpaper HD Games.jpg
-
 exec --no-startup-id dunst
 
