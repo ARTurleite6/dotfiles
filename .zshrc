@@ -512,4 +512,9 @@ neofetch
 #cpufetch
 #colorscript random
 
+#[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
+
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
+
 [ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
