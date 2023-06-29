@@ -1,6 +1,6 @@
 ###
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.cargo/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.dotnet/tools:$HOME/.cargo/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 #installation via script from github
@@ -517,4 +517,7 @@ neofetch
 source /usr/share/fzf/completion.zsh
 source /usr/share/fzf/key-bindings.zsh
 
+#[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
+
+#[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
 [ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
