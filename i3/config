@@ -219,7 +219,7 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec_always --no-startup-id $HOME/.config/polybar/i3wmthemer_bar_launch.sh
+exec_always --no-startup-id polybar
 
 # Theme colors
 client.focused #c6c6c6 #1f1f1f #c6c6c6 #8abeb7 #8abeb7
@@ -294,7 +294,7 @@ bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
 #ScreenShot
 bindsym Print exec --no-startup-id flameshot screen -p ~/screenshot
-bindsym $mod+Print exec --no-startup-id flameshot gui
+bindsym Shift+Print exec --no-startup-id flameshot gui
 
 exec --no-startup-id i3-battery-popup
 
