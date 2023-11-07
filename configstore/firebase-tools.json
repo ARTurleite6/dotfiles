@@ -1,0 +1,41 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1697924457296
+	},
+	"usage": true,
+	"analytics-uuid": "a3c89206-2738-4048-a6c5-1bf3beb3e6fd",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "111991045681238109715",
+		"email": "arturleite164@gmail.com",
+		"email_verified": true,
+		"at_hash": "IcVWT8DbEYgj9zpd5c8KXg",
+		"iat": 1697924466,
+		"exp": 1697928066
+	},
+	"tokens": {
+		"expires_at": 1697928065056,
+		"access_token": "ya29.a0AfB_byAmvjGiYnDXn_j4ROZTCLMHqbGOZiHnf1cvxYFetk-Z2bRpAwnCxvdy1MOK03JCC607FQePdDS71krBPc_SuoNQHj1aLAiqkqvSt4cyyOwM5hKCrwoi2o6BHUTj252p1hN9KLae4Fo3uNJA5apZGO0lwwbojPHoi9TjowaCgYKAcASARISFQGOcNnCJqVx68qm1MmGaZudpN2HRw0177",
+		"expires_in": 3599,
+		"refresh_token": "1//03RII7aENHIhYCgYIARAAGAMSNwF-L9IrKeTXr517BFTdp36XAif_cs8Z8E4R5JVjQmGI1V4ZrqG60iYuYzwLjwG3ECEeBCtRYDs",
+		"scope": "https://www.googleapis.com/auth/firebase openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjdkMzM0NDk3NTA2YWNiNzRjZGVlZGFhNjYxODRkMTU1NDdmODM2OTMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTExOTkxMDQ1NjgxMjM4MTA5NzE1IiwiZW1haWwiOiJhcnR1cmxlaXRlMTY0QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiSWNWV1Q4RGJFWWdqOXpwZDVjOEtYZyIsImlhdCI6MTY5NzkyNDQ2NiwiZXhwIjoxNjk3OTI4MDY2fQ.dEG4B63OHP4aMnIzWsWZehgl5ZrpajLKJMoyWT6NW0ZGg7QPDLnYn-3Ks7cyYEMFeWowJkHTEsyIxji_iiykAtsk1G_U6Y_kifkPqzpVRMqiVobQFnjXCvqCJtI2K3jUgkgsHapI8eejPPkLZBNkMlmFpEvZ4nqT1EvAOciEut9YRDBbtTp_DqoKS3__Gma2iEUajzgu3Dvq-LSIo9ITNA6gzW6sUqTZS-d_pMeugPDS7bbqyn7MziY-VZBl6Yn-5azT7h2zsYoCa0NMd3GIDd8XY9oObHqmPOVJFM9sI8ZWEvZAe-C6LzKgXOI2Cvqwo2hRHiisP7iMmlyB-QQEpQ"
+	},
+	"activeProjects": {
+		"/home/arturl/dev/Company": "company-ccbe8"
+	},
+	"previews": {
+		"webframeworks": true
+	},
+	"lastError": 1697924982675
+}

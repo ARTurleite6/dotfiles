@@ -13,7 +13,7 @@ decorations: none
 
 # Font configuration
 font:
-  size: 14.0
+  size: 10.0
   # Normal (roman) font face
   normal:
     family: JetBrains Mono

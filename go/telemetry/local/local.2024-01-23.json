@@ -1,0 +1,51 @@
+{
+ "Week": "2024-01-23",
+ "LastWeek": "",
+ "X": 0.17618980871541323,
+ "Programs": [
+  {
+   "Program": "golang.org/x/tools/gopls",
+   "Version": "v0.14.0",
+   "GoVersion": "go1.21.3",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "counter/main": 2,
+    "gopls/client:vscode": 1,
+    "gopls/completion/latency:\u003c100ms": 4,
+    "gopls/completion/latency:\u003c10ms": 171,
+    "gopls/completion/latency:\u003c200ms": 310,
+    "gopls/completion/latency:\u003c50ms": 154,
+    "gopls/definition/latency:\u003c10ms": 1,
+    "gopls/goversion:1.21": 1,
+    "gopls/hover/latency:\u003c10ms": 7
+   },
+   "Stacks": {
+    "gopls/bug\ngolang.org/x/tools/gopls/internal/bug.report:35\ngolang.org/x/tools/gopls/internal/bug.Errorf:2\ngolang.org/x/tools/gopls/internal/lsp.refactorRewrite.func1:2\nruntime.gopanic:88\nruntime.panicmem:?261\nruntime.sigpanic:19\ngo/ast.Walk:184\ngo/ast.Inspect:?397\ngolang.org/x/tools/gopls/internal/lsp.canRemoveParameter:22\ngolang.org/x/tools/gopls/internal/lsp.refactorRewrite:14\ngolang.org/x/tools/gopls/internal/lsp.(*Server).codeAction:220\ngolang.org/x/tools/gopls/internal/lsp.(*Server).CodeAction:1\ngolang.org/x/tools/gopls/internal/lsp/protocol.serverDispatch:142\ngolang.org/x/tools/gopls/internal/lsp/lsprpc.(*StreamServer).ServeStream.ServerHandler.func3:5\ngolang.org/x/tools/gopls/internal/lsp/lsprpc.(*StreamServer).ServeStream.handshaker.func4:52\ngolang.org/x/tools/gopls/internal/lsp/protocol.Handlers.MustReplyHandler.func1:2": 1
+   }
+  },
+  {
+   "Program": "golang.org/x/tools/gopls",
+   "Version": "v0.14.2",
+   "GoVersion": "go1.21.5",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "counter/main": 16,
+    "gopls/client:neovim": 16,
+    "gopls/completion/latency:\u003c100ms": 195,
+    "gopls/completion/latency:\u003c10ms": 7281,
+    "gopls/completion/latency:\u003c1s": 12,
+    "gopls/completion/latency:\u003c200ms": 6038,
+    "gopls/completion/latency:\u003c500ms": 7,
+    "gopls/completion/latency:\u003c50ms": 4602,
+    "gopls/definition/latency:\u003c10ms": 98,
+    "gopls/goversion:1.21": 16,
+    "gopls/hover/latency:\u003c10ms": 132,
+    "gopls/hover/latency:\u003c50ms": 1
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.13.0"
+}

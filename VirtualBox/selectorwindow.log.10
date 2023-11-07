@@ -1,0 +1,26 @@
+00:00:00.328268 VirtualBox GUI VM Selector Window 7.0.12 r159484 linux.amd64 (Oct 17 2023 12:57:12) release log
+00:00:00.328270 Log opened 2023-12-05T14:28:05.586433000Z
+00:00:00.328272 Build Type: release
+00:00:00.328275 OS Product: Linux
+00:00:00.328277 OS Release: 6.6.3-arch1-1
+00:00:00.328279 OS Version: #1 SMP PREEMPT_DYNAMIC Wed, 29 Nov 2023 00:37:40 +0000
+00:00:00.328301 DMI Product Name: 82JU
+00:00:00.328312 DMI Product Version: Legion 5 15ACH6H
+00:00:00.328317 Firmware type: UEFI
+00:00:00.328915 Secure Boot: Disabled
+00:00:00.328970 Host RAM: 13830MB (13.5GB) total, 10146MB (9.9GB) available
+00:00:00.328974 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.328976 Process ID: 3479
+00:00:00.328978 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.329012 Qt version: 5.15.11
+00:00:00.330274 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.343135 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.790309 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:05.264268 GUI: UIInvisibleWindow::sltFallback: Move event haven't came. Screen: 0, work area: 957x517 x 75x50
+00:00:05.264295 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 957x517 x 75x50
+00:01:20.684395 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:24.597233 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:26.947869 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:32.470727 GUI: UIMediumEnumerator: Medium-enumeration finished!
+04:19:00.770009 GUI: UIMediumEnumerator: Medium-enumeration finished!
+04:19:00.770037 Log rotated - Log started 2023-12-05T14:28:05.586433000Z

@@ -1,4 +1,4 @@
-set $mod Mod1
+set $mod Mod4
 
 new_window pixel 1
 new_float normal
@@ -219,7 +219,7 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec_always --no-startup-id polybar
+exec_always --no-startup-id bash ~/.config/polybar/launch.sh --forest
 
 # Theme colors
 client.focused #c6c6c6 #1f1f1f #c6c6c6 #8abeb7 #8abeb7

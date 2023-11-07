@@ -1,6 +1,10 @@
 ###
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.dotnet/tools:$HOME/.cargo/bin:$PATH
+export FLYCTL_INSTALL="/home/arturl/.fly"
+export PATH=$HOME/bin:$HOME/dev/vcpkg:$HOME/.local/share/gem/ruby/3.2.0/bin:/usr/local/bin:$HOME/.dotnet/tools:$HOME/.cargo/bin:$HOME/.config/emacs/bin:$FLYCTL_INSTALL/bin:/home/arturl/.detaspace/bin:$PATH
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export PATH=$PATH:$(go env GOPATH)/bin
 
 # Path to your oh-my-zsh installation.
 #installation via script from github
@@ -76,7 +80,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions web-search copyfile copybuffer jsontools)
 
 if [ -f $ZSH/oh-my-zsh.sh ]; then
   source $ZSH/oh-my-zsh.sh
@@ -520,7 +524,7 @@ source /usr/share/fzf/key-bindings.zsh
 #[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
 
 #[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
-[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
+#[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
 
 # opam configuration
 [[ ! -r /home/arturl/.opam/opam-init/init.zsh ]] || source /home/arturl/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
@@ -533,18 +537,13 @@ source /usr/share/fzf/key-bindings.zsh
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/usr/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/usr/etc/profile.d/conda.sh" ]; then
-        . "/usr/etc/profile.d/conda.sh"
-    else
-        export PATH="/usr/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
+export ENCORE_INSTALL="/home/arturl/.encore"
+export PATH="$ENCORE_INSTALL/bin:$PATH"
 
+
+#[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
+
+#[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
+source /usr/share/nvm/init-nvm.sh
+
+[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
