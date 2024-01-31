@@ -1,1 +1,6 @@
-@theme "/usr/share/rofi/themes/DarkBlue.rasi"
+/** Basic config file **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "candy-icons";
+}
