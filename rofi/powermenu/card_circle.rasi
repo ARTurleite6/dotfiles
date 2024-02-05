@@ -54,7 +54,7 @@ inputbar {
     expand:                         false;
     border:                  		0% 0.2% 0.2% 0%;
     border-radius:                  0% 100% 100% 100%;
-    border-color:                  	@border;
+    border-color:                  	@ac;
     margin:                         0% 3% 0% 9.5%;
     padding:                        0.5%;
     position:                       center;
@@ -114,7 +114,7 @@ element selected {
     text-color:                     @red;
     border:                  		0% 0.2% 0.2% 0%;
     border-radius:                  100%;
-    border-color:                  	@border;
+    border-color:                  	@ac;
 }
 
 element selected.urgent {

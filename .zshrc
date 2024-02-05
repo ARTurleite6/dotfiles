@@ -4,6 +4,7 @@ export FLYCTL_INSTALL="/home/arturl/.fly"
 export PATH=$HOME/bin:$HOME/dev/vcpkg:$HOME/.local/share/gem/ruby/3.2.0/bin:/usr/local/bin:$HOME/.dotnet/tools:$HOME/.cargo/bin:$HOME/.config/emacs/bin:$FLYCTL_INSTALL/bin:/home/arturl/.detaspace/bin:$PATH
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export PATH=$PATH:$HOME/bin
 export PATH=$PATH:$(go env GOPATH)/bin
 
 # Path to your oh-my-zsh installation.
@@ -501,7 +502,6 @@ alias nv="nvim"
 alias open="xdg-open"
 
 # reporting tools - install when not installed
-neofetch
 #screenfetch
 #alsi
 #paleofetch
@@ -520,6 +520,9 @@ neofetch
 
 source /usr/share/fzf/completion.zsh
 source /usr/share/fzf/key-bindings.zsh
+
+bindkey -s '^F' 'tmux-sessionizer.sh\n'
+
 
 #[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
 
@@ -546,4 +549,4 @@ export PATH="$ENCORE_INSTALL/bin:$PATH"
 #[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
 source /usr/share/nvm/init-nvm.sh
 
-[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-env
+[ -f "/home/arturl/.ghcup/env" ] && source "/home/arturl/.ghcup/env" # ghcup-envexport PATH=$PATH:$HOME/bin
