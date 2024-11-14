@@ -1,11 +1,13 @@
-﻿﻿local wezterm = require("wezterm")
+local wezterm = require("wezterm")
 local action = wezterm.action
 
 local config = {
+	default_prog = { "powershell.exe" },
 	inactive_pane_hsb = {
 		saturation = 0.8,
 		brightness = 0.7,
 	},
+	default_cursor_style = "BlinkingBar",
 	font = wezterm.font("JetBrains Mono"),
 	color_scheme = "Gruvbox dark, hard (base16)",
 	use_dead_keys = false,
@@ -15,13 +17,11 @@ local config = {
 	disable_default_key_bindings = true,
 	leader = { key = "b", mods = "CTRL", timeout_milliseconds = 2000 },
 	keys = {
-		{ key = "p", mods = "CMD|SHIFT", action = action.ActivateCommandPalette },
-		{ key = "t", mods = "CMD", action = action.SpawnTab("CurrentPaneDomain") },
-		{ key = "w", mods = "CMD", action = action.CloseCurrentTab({ confirm = false }) },
-		{ key = "x", mods = "CMD", action = action.CloseCurrentPane({ confirm = false }) },
+		{ key = "p", mods = "CTRL|SHIFT", action = action.ActivateCommandPalette },
+		{ key = "c", mods = "LEADER", action = action.SpawnTab("CurrentPaneDomain") },
 		{ key = "q", mods = "LEADER", action = action.CloseCurrentPane({ confirm = false }) },
-		{ key = "c", mods = "CMD|SHIFT", action = action.CopyTo("Clipboard") },
-		{ key = "v", mods = "CMD|SHIFT", action = action.PasteFrom("Clipboard") },
+		{ key = "c", mods = "CTRL|SHIFT", action = action.CopyTo("Clipboard") },
+		{ key = "v", mods = "CTRL|SHIFT", action = action.PasteFrom("Clipboard") },
 		{ key = "|", mods = "LEADER", action = action.SplitHorizontal({ domain = "CurrentPaneDomain" }) },
 		{ key = "_", mods = "LEADER", action = action.SplitVertical({ domain = "CurrentPaneDomain" }) },
 		{ key = "k", mods = "LEADER", action = action.ActivatePaneDirection("Up") },
@@ -31,9 +31,9 @@ local config = {
 		{ key = "n", mods = "LEADER", action = action.ActivateTabRelative(1) },
 		{ key = "p", mods = "LEADER", action = action.ActivateTabRelative(-1) },
 		{ key = "Enter", mods = "LEADER", action = action.ActivateCopyMode },
-		{ key = "+", mods = "CMD|SHIFT", action = action.IncreaseFontSize },
-		{ key = "-", mods = "CMD|SHIFT", action = action.DecreaseFontSize },
-		{ key = "0", mods = "CMD|SHIFT", action = action.ResetFontSize },
+		{ key = "+", mods = "CTRL|SHIFT", action = action.IncreaseFontSize },
+		{ key = "-", mods = "CTRL|SHIFT", action = action.DecreaseFontSize },
+		{ key = "0", mods = "CTRL|SHIFT", action = action.ResetFontSize },
 	},
 }
 
