@@ -135,3 +135,14 @@ alias zshconfig="nvim ~/.zshrc"
 eval "$(zoxide init zsh --cmd cd)"
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+. "$HOME/.asdf/asdf.sh"
+# append completions to fpath
+fpath=(${ASDF_DIR}/completions $fpath)
+# initialise completions with ZSH's compinit
+autoload -Uz compinit && compinit
+source $HOME/.profile
+export COLORTERM=truecolor
+# >>> xmake >>>
+test -f "/home/arturleite/.xmake/profile" && source "/home/arturleite/.xmake/profile"
+# <<< xmake <<<
