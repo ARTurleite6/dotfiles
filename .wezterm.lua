@@ -2,7 +2,6 @@ local wezterm = require("wezterm")
 local action = wezterm.action
 
 local config = {
-	default_domain = "WSL:Ubuntu",
 	inactive_pane_hsb = {
 		saturation = 0.8,
 		brightness = 0.7,
@@ -36,5 +35,17 @@ local config = {
 		{ key = "0", mods = "CTRL|SHIFT", action = action.ResetFontSize },
 	},
 }
+
+if wezterm.target_triple == "x86_64-pc-windows-msvc" then
+	config.default_domain = "WSL:Ubuntu"
+end
+
+for i = 1, 8 do
+	table.insert(config.keys, {
+		key = tostring(i),
+		mods = "LEADER",
+		action = action.ActivateTab(i - 1),
+	})
+end
 
 return config

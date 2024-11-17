@@ -146,3 +146,6 @@ export COLORTERM=truecolor
 # >>> xmake >>>
 test -f "/home/arturleite/.xmake/profile" && source "/home/arturleite/.xmake/profile"
 # <<< xmake <<<
+
+alias zshconfig="nvim $HOME/.zshrc"
+alias config="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
