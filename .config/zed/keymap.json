@@ -1,0 +1,45 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Editor && VimControl && !VimWaiting && !menu",
+    "bindings": {
+      "space a": "project_panel::OpenPermanent",
+      "shift-k": "editor::Hover",
+      "space b f": "editor::Format",
+      "space s f": "file_finder::Toggle",
+      "space space": "tab_switcher::Toggle",
+      "space c": "pane::CloseActiveItem",
+      "space d s": "outline::Toggle",
+      "space w s": "project_symbols::Toggle",
+      "space s g": "workspace::NewSearch"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == visual && !VimWaiting && !VimObject",
+    "bindings": {
+      "shift-k": "editor::MoveLineUp",
+      "shift-j": "editor::MoveLineDown"
+    }
+  },
+  {
+    "context": "vim_mode == visual",
+    "bindings": {
+      "s a": ["vim::PushOperator", { "AddSurrounds": {} }]
+    }
+  },
+  {
+    "context": "Dock",
+    "bindings": {
+      "ctrl-w h": ["workspace::ActivatePaneInDirection", "Left"],
+      "ctrl-w l": ["workspace::ActivatePaneInDirection", "Right"],
+      "ctrl-w k": ["workspace::ActivatePaneInDirection", "Up"],
+      "ctrl-w j": ["workspace::ActivatePaneInDirection", "Down"]
+    }
+  }
+]
