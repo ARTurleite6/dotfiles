@@ -149,3 +149,5 @@ test -f "/home/arturleite/.xmake/profile" && source "/home/arturleite/.xmake/pro
 
 alias zshconfig="nvim $HOME/.zshrc"
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+export PATH="$PATH:$HOME/.modular/bin"
+export PATH="$PATH:$HOME/dev"

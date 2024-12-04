@@ -17,7 +17,8 @@
       "space c": "pane::CloseActiveItem",
       "space d s": "outline::Toggle",
       "space w s": "project_symbols::Toggle",
-      "space s g": "workspace::NewSearch"
+      "space s g": "workspace::NewSearch",
+      "space s p": "projects::OpenRecent"
     }
   },
   {

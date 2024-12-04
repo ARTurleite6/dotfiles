@@ -8,8 +8,16 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // ui
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
+  },
   "ui_font_size": 16,
   "buffer_font_size": 16,
+  "ui_font_family": "JetBrainsMono Nerd Font Mono",
   "theme": {
     "mode": "system",
     "light": "One Light",
@@ -49,11 +57,19 @@
   "project_panel": {
     "auto_fold_dirs": false
   },
-  "auto_signature_help": true,
   "show_signature_help_after_edits": true,
 
   // extensions
   "auto_install_extensions": {
     "odin": true
+  },
+
+  // language specific settings
+  "lsp": {
+    "zls": {
+      "binary": {
+        "path": "zls"
+      }
+    }
   }
 }
