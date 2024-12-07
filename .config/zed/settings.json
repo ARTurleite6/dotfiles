@@ -65,10 +65,20 @@
   },
 
   // language specific settings
+  "languages": {
+    "Elixir": {
+      "format_on_save": {
+        "external": {
+          "command": "mix",
+          "arguments": ["format", "--stdin-filename", "{buffer_path}", "-"]
+        }
+      }
+    }
+  },
   "lsp": {
-    "zls": {
-      "binary": {
-        "path": "zls"
+    "elixir-ls": {
+      "settings": {
+        "dialyzerEnabled": false
       }
     }
   }
