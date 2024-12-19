@@ -8,6 +8,19 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // ui
+  "ssh_connections": [
+    {
+      "host": "s7edu2.di.uminho.pt",
+      "username": "a97027",
+      "projects": [
+        {
+          "paths": [
+            "~/main.c"
+          ]
+        }
+      ]
+    }
+  ],
   "assistant": {
     "default_model": {
       "provider": "zed.dev",
@@ -75,10 +88,11 @@
       }
     }
   },
+
   "lsp": {
     "elixir-ls": {
       "settings": {
-        "dialyzerEnabled": false
+        "dialyzerEnabled": true
       }
     }
   }

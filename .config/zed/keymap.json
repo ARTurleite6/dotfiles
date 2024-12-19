@@ -18,7 +18,8 @@
       "space d s": "outline::Toggle",
       "space w s": "project_symbols::Toggle",
       "space s g": "workspace::NewSearch",
-      "space s p": "projects::OpenRecent"
+      "space s p": "projects::OpenRecent",
+      "space s t": "workspace::NewCenterTerminal"
     }
   },
   {
