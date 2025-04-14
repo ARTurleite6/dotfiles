@@ -1,16 +1,12 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 
-    fish_add_path $HOME/bin
+    set -x VCPKG_ROOT $HOME/dev/vcpkg
     fish_add_path $HOME/.local/bin
-    fish_add_path /opt/homebrew/bin
-    fish_add_path $HOME/.emacs.d/bin
-    fish_add_path $HOME/dev/roc
-    fish_add_path /opt/homebrew/opt/llvm/bin
-    set -gx CC /opt/homebrew/opt/llvm/bin/clang
-    set -gx CXX /opt/homebrew/opt/llvm/bin/clang++
-    alias gcc /opt/homebrew/opt/llvm/bin/clang
-    alias g++ /opt/homebrew/opt/llvm/bin/clang++
+    fish_add_path $VCPKG_ROOT
+
+    alias config "/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+
     zoxide init fish --cmd cd | source
 
     theme_gruvbox dark hard
