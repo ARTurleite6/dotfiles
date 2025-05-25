@@ -65,12 +65,16 @@ ZSH_THEME="robbyrussell"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+ZOXIDE_CMD_OVERRIDE=cd
+MODE_INDICATOR="%F{white}N%f"
+INSERT_MODE_INDICATOR="%F{yellow}I%f"
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git rust mise zoxide vi-mode zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,7 +107,3 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
-
-eval "$(mise activate zsh)"
-
-eval "$(zoxide init zsh --cmd cd)"
