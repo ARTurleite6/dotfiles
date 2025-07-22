@@ -11,7 +11,9 @@ keybind = ctrl+l=goto_split:right
 keybind = ctrl+h=goto_split:left
 keybind = ctrl+k=goto_split:top
 keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+t=new_tab
+keybind = ctrl+w=close_tab
 
 # Empty values reset the configuration to the default value
-font-family =
+font-family = "JetBrains Mono"
 
