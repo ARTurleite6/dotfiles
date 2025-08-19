@@ -8,40 +8,38 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   // ui
-  "ssh_connections": [
-    {
-      "host": "s7edu2.di.uminho.pt",
-      "username": "a97027",
-      "projects": [
-        {
-          "paths": ["~/CParTP"]
-        },
-        {
-          "paths": ["~/cuda"]
-        },
-        {
-          "paths": ["~/cuda_tp"]
-        },
-        {
-          "paths": ["~/main.c"]
-        }
-      ]
-    }
-  ],
-  "assistant": {
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
+  "edit_predictions": {
+    "mode": "subtle",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null,
+      "enterprise_uri": null
     },
-    "version": "2"
+    "enabled_in_text_threads": false
   },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "agent": {
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
+    },
+    "always_allow_tool_actions": true,
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
+    }
+  },
+  "icon_theme": "Catppuccin Frappé",
   "ui_font_size": 16,
   "buffer_font_size": 16,
-  "ui_font_family": "JetBrainsMono Nerd Font Mono",
+  "ui_font_family": "JetBrains Mono NL",
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
-    "dark": "Gruvbox Dark Hard"
+    "dark": "Base16 Kanagawa"
   },
   "vim_mode": true,
   "cursor_blink": false,
@@ -85,25 +83,26 @@
   },
 
   // language specific settings
-  "languages": {
-    "Elixir": {
-      "format_on_save": {
-        "external": {
-          "command": "mix",
-          "arguments": ["format", "--stdin-filename", "{buffer_path}", "-"]
+  "languages": {},
+
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "diagnostics": {
+          "experimental": {
+            "enable": true
+          }
+        },
+        "cargo": {
+          "allTargets": false
+        },
+        "check": {
+          "workspace": false
         }
       }
     }
   },
-
-  "lsp": {
-    "elixir-ls": {
-      "settings": {
-        "dialyzerEnabled": true
-      }
-    }
-  },
-  "show_completions_on_input": true,
-  "show_inline_completions": false,
-  "format_on_save": "off"
+  "show_completions_on_input": false,
+  "show_edit_predictions": true,
+  "format_on_save": "on"
 }

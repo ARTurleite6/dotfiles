@@ -107,3 +107,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias config="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+. /home/aleite/.cargo/env
+eval "$(/home/aleite/.local/bin/mise activate zsh)"
+
+export VCPKG_ROOT="$HOME/dev/vcpkg"

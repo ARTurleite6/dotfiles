@@ -2,7 +2,7 @@
 # equals doesn't matter.
 background = 000000
 
-theme = GruvboxDarkHard
+theme = Kanagawa Wave
 
 # Comments start with a `#` and are only valid on their own line.
 # Blank lines are ignored!
@@ -11,9 +11,9 @@ keybind = ctrl+l=goto_split:right
 keybind = ctrl+h=goto_split:left
 keybind = ctrl+k=goto_split:top
 keybind = ctrl+j=goto_split:bottom
-keybind = ctrl+t=new_tab
-keybind = ctrl+w=close_tab
 
 # Empty values reset the configuration to the default value
-font-family = "JetBrains Mono"
+font-family = "Fira Code"
+font-size = 12
+font-feature = ["calt", "liga", "dlig"]
 
